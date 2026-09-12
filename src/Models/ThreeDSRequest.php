@@ -65,7 +65,7 @@ class ThreeDSRequest extends ModelsBase
             ],
             'CallbackUrl' => [
                 'type' => 'string',
-                'CallbackUrl' => false,
+                'required' => false,
             ],
         ];
     }
